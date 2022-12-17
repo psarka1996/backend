@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "backend/server.js",
+        "src": "backend/app.js",
         "use": "@now/node"
       }
     ],
@@ -10,8 +10,10 @@
       {
         "src": "/(.*)",
   
-        "dest": "server.js"
+        "dest": "app.js"
       }
     ]
   }
+
+  https://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@github.com/psarka1996/backend.git
   
